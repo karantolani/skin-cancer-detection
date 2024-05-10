@@ -1,7 +1,6 @@
 from tensorflow.keras.models import load_model
 import cv2
 import numpy as np
-import matplotlib.pyplot as plt
 from flask import Flask, request, jsonify
 
 model = load_model('my_skin_disease_pred_model.h5')
